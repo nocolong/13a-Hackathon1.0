@@ -1,0 +1,18 @@
+﻿<Window x:Class="_13a_Hackathon1._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_13a_Hackathon1._0"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="textBoxEnterFoodItem" Height="40" Margin="10,10,10,0" TextWrapping="Wrap" Text="Enter Food Item" VerticalAlignment="Top"/>
+        <Button x:Name="buttonGetNutrition" Content="Get Nutrition" Margin="10,55,10,0" VerticalAlignment="Top" Height="51" Click="buttonGetNutrition_Click"/>
+        <TextBlock x:Name="textBlockItemName" HorizontalAlignment="Left" Margin="10,149,0,0" TextWrapping="Wrap" Text="Item Name" VerticalAlignment="Top" Width="204" Height="39"/>
+        <TextBlock x:Name="textBlockCalories" Margin="303,149,10,0" TextWrapping="Wrap" Text="Calories" VerticalAlignment="Top" Height="39"/>
+        <TextBlock x:Name="textBlockBrandName" HorizontalAlignment="Left" Margin="10,226,0,0" TextWrapping="Wrap" Text="Brand Name" VerticalAlignment="Top" Height="43" Width="204"/>
+        <TextBlock x:Name="textBlockFat" HorizontalAlignment="Left" Margin="303,226,0,0" TextWrapping="Wrap" Text="Fat" VerticalAlignment="Top" Width="204" Height="43"/>
+
+    </Grid>
+</Window>
